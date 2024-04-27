@@ -1,0 +1,93 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+  font-family: roboto;
+  display: flex;
+  flex-direction: row;
+}
+
+main
+{
+  height: 100%;
+}
+
+.sidebar
+{
+  height: 100vh;
+  width: 30vw;
+  background-image: url("https://environmentamerica.org/wp-content/uploads/2023/05/Flat-Country-credit-Cascadia-Wildlands-DSC_4323.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main
+{
+  height: 100vh;
+  width: 70vw;
+}
+
+.section-1
+{
+  height: 30vh;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+.section-2
+{
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.section-2 h1
+{
+  font-size: 20px;
+}
+
+.section-2 label
+{
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-right: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.section-2 input
+{
+  width: 300px;
+  height: 25px;
+}
+
+.grouping
+{
+  display: flex;
+  margin-top: 10px;
+}
+
+.create-account
+{
+  margin-top: 50px;
+}
+
+.create-account input
+{
+  width: 200px;
+  border-size: border-box;
+  border-radius: 10px;
+  font-family: roboto;
+  padding: 20px;
+  background-color: #596D48;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
