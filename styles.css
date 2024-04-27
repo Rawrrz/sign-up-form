@@ -1,3 +1,9 @@
+@font-face 
+{
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
 *
 {
   padding: 0;
@@ -6,28 +12,24 @@
 
 body
 {
-  font-family: roboto;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: row;
 }
 
-main
-{
-  height: 100%;
-}
 
 .sidebar
 {
   height: 100vh;
   width: 30vw;
-  background-image: url("https://environmentamerica.org/wp-content/uploads/2023/05/Flat-Country-credit-Cascadia-Wildlands-DSC_4323.jpeg");
+  background-image: url("images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .main
 {
-  height: 100vh;
+  height: 99vh;
   width: 70vw;
 }
 
@@ -45,7 +47,7 @@ main
   padding-left: 40px;
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  height: 20vh;
 }
 
 .section-2 h1
@@ -64,7 +66,9 @@ main
 
 .section-2 input
 {
-  width: 300px;
+  border: 1px #E5E7EB solid;
+  border-radius: 5px;
+  width: 250px;
   height: 25px;
 }
 
@@ -82,12 +86,16 @@ main
 .create-account input
 {
   width: 200px;
-  border-size: border-box;
   border-radius: 10px;
   font-family: roboto;
   padding: 20px;
   background-color: #596D48;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
+}
+
+.login-subtext
+{
+    margin-top: 20px;
 }
