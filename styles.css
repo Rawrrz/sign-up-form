@@ -46,9 +46,11 @@ body
 .section-2
 {
   padding-left: 40px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   height: 20vh;
+  box-shadow: 10px 10px 10px #d6d6d6;
 }
 
 .section-2 h1
@@ -73,6 +75,7 @@ body
   height: 25px;
 }
 
+
 .grouping
 {
   display: flex;
@@ -81,7 +84,7 @@ body
 
 .create-account
 {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .create-account input
@@ -95,6 +98,7 @@ body
   color: white;
   font-size: 18px;
   font-weight: 500;
+  border-style: none;
 }
 
 .login-subtext
