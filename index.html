@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
     <title>Sign Up Form</title>
 </head>
 <body>
@@ -23,7 +24,7 @@
       </div>
       <div class="section-2"> 
         <h1>Let's do this!</h1>
-        <form action="#">
+        <form class="form1" name="mainForm" action="account.html" onsubmit="return validatePassword()" method="post">
           <div class="grouping">
             <!--   First name input     -->
             <div class="first">
@@ -45,7 +46,7 @@
             <div class="phone">
               <!-- Phone number input -->
               <label for="phone">Phone Number<br></label>
-              <input type="text" id="phone" name="phone" required><br>
+              <input type="text" id="phone" name="phone" pattern="\d{3}-\d{3}-\d{4}" title="Please enter a valid phone number with dashes included." required><br>
             </div>
           </div>      
           <div class="grouping">

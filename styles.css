@@ -76,7 +76,7 @@ body
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
-  height: 20vh;
+  height: 200px;
   box-shadow: 10px 10px 10px #d6d6d6;
 }
 
@@ -159,4 +159,14 @@ body
 .credit a
 {
     color: rgb(212, 211, 211);
+}
+
+input:valid
+{
+  border: 1px #E5E7EB solid;
+}
+
+input:invalid
+{
+  border-color: red;
 }
