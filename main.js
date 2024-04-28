@@ -16,5 +16,6 @@ function validatePassword()
     {
         pass1.setCustomValidity("");
         pass2.setCustomValidity("");
+        return true;
     }
 }
